@@ -1,0 +1,82 @@
+.main {
+    background: #006d34 url("/images/madredder-index-bg.svg");
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+    padding: 6rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    height: max(100vh, 60rem);
+}
+
+.main h1, .main p {
+    text-shadow: 0px 0px 4px #333;
+}
+
+.main p {
+    padding-bottom: 1rem;
+}
+
+.card-select {
+    padding-top: 2rem;
+}
+
+#main-text-container {
+    max-width: 84rem;
+    margin: auto;
+    text-align: left;
+    padding-top: 10rem;
+}
+
+#main-card-container {
+    display: flex;
+    max-width: 84rem;
+    margin: 4rem auto;
+}
+
+#main-card-container a {
+    background-color: var(--topfisk-orange-light);
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    margin: 2rem;
+    flex-grow: 1;
+    width: 33%;
+    height: 24rem;
+    text-align: left;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 0px 0px 4px var(--topfisk-orange-dark);
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card.shop {
+    background-image: url("/Images/Madredder-shop-bg.svg");
+}
+
+.card.learn {
+    background-image: url("/Images/Madredder-learn-bg.svg");
+}
+
+
+#main-card-container a:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 16px var(--topfisk-orange-dark);
+}
+
+#main-card-container a h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 70rem) {
+    #main-card-container {
+        flex-direction: column;
+    }
+    #main-card-container a {
+        width: calc(100% - 4rem);
+    }
+}

@@ -1,0 +1,267 @@
+* {
+    --topfisk-orange: #f48c1e;
+    --topfisk-orange-dark: #e77c0c;
+    --topfisk-orange-light: #ffbd77;
+    --topfisk-orange-lighter: #ffd7ac;
+    --topfisk-orange-gradient: linear-gradient(75deg, rgba(255,149,37,1) 0%, rgba(255,169,77,1) 100%);
+    --topfisk-orange-light-gradient: linear-gradient(75deg, #ffb462ff 0%, #ffbf7cff 100%);
+}
+
+:root {
+    font-size: 90%;
+}
+
+body {
+    font-family: "Cabin", "Segoe UI", "Calibri", sans-serif;
+    margin: 0;
+}
+
+p, a {
+    font-size: 1.1rem;
+}
+
+a {
+    color: #00B7FF;
+    transition: color 0.15s;
+}
+
+/* Header styles */
+
+#header-container {
+    box-shadow: 0px 0px 4px var(--topfisk-orange-dark);
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 69696969;
+    transition: background-color 0.15s;
+}
+
+header {
+    height: 4rem;
+    padding: .69rem 1.20rem;
+    display: flex;
+    max-width: 96rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#header-logo {
+    height: 100%;
+    padding-right: 1rem;
+    display: inherit;
+    width: 100px;
+}
+
+.header-link {
+    padding: .5rem;
+    margin: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--topfisk-orange-dark);
+}
+
+.header-link.dropdown::after {
+    content: "▼";
+    font-size: 0.8rem;
+    padding-left: .1rem;
+    transform: translate(-50%, -50%);
+}
+
+.content-wide {
+    width: 100%;
+    text-align: center;
+}
+
+.content-wide h1 {
+    font-size: 4rem;
+
+}
+
+.content-wide p {
+    font-size: 1.25rem;
+}
+
+/* Transparent header */
+
+#header-container.transparent {
+    background: none;
+    box-shadow: none;
+}
+
+#header-container.transparent header div a {
+    filter: grayscale(1) invert(1) brightness(4);
+}
+
+/* Footer styling */
+
+#footer-container {
+    width: 100%;
+    min-height: 8rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+footer {
+    max-width: 96rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-left {
+    color: white;
+    max-width: 36rem;
+}
+
+#footer-left img {
+    height: 4rem;
+    filter: grayscale(1) invert(1) brightness(3.5);
+}
+
+#footer-right a {
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: text-shadow 0.15s;
+}
+
+#footer-right a:hover {
+    text-shadow: 0px 0px 8px #FFF7;
+}
+
+/* button */
+
+.button {
+    padding: .75rem 1.5rem;
+    background-image: var(--topfisk-orange-gradient);
+    box-shadow: 0px 0px 4px var(--topfisk-orange-dark);
+    transition: filter 0.2s, box-shadow 0.2s;
+    color: white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+
+.button:hover {
+    filter: brightness(1.07);
+    box-shadow: 0px 0px 8px var(--topfisk-orange-dark);
+}
+
+
+.content-wide h1 {
+    font-size: 4rem;
+
+}
+
+
+.content-wide p {
+    font-size: 1.25rem;
+}
+
+/* Size Differential Friendly */
+
+@media screen and (max-width: 70rem) {
+    .header-link {
+        display: none;
+    }
+    .search:hover input, .search input:focus {
+        width: 10rem;
+        padding: 0 1rem;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+/* Login Button */
+
+#login-toggle {
+    display: none;
+}
+
+
+.login-button:hover {
+    filter: brightness(1.07);
+    box-shadow: 0px 0px 8px var(--topfisk-orange-dark);
+}
+
+
+.popup {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+#login-toggle:checked ~ .popup {
+    display: flex;
+}
+
+
+.login-box {
+    position: relative;
+
+    background: white;
+    padding: 30px;
+    width: 300px;
+
+    border-radius: 10px;
+}
+
+
+.login-box input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
