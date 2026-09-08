@@ -1,10 +1,10 @@
 * {
-    --topfisk-orange: #f48c1e;
-    --topfisk-orange-dark: #e77c0c;
-    --topfisk-orange-light: #ffbd77;
-    --topfisk-orange-lighter: #ffd7ac;
-    --topfisk-orange-gradient: linear-gradient(75deg, rgba(255,149,37,1) 0%, rgba(255,169,77,1) 100%);
-    --topfisk-orange-light-gradient: linear-gradient(75deg, #ffb462ff 0%, #ffbf7cff 100%);
+    --madredder-orange: #f48c1e;
+    --madredder-orange-dark: #e77c0c;
+    --madredder-orange-light: #ffbd77;
+    --madredder-orange-lighter: #ffd7ac;
+    --madredder-orange-gradient: linear-gradient(75deg, rgba(255,149,37,1) 0%, rgba(255,169,77,1) 100%);
+    --madredder-orange-light-gradient: linear-gradient(75deg, #ffb462ff 0%, #ffbf7cff 100%);
 }
 
 :root {
@@ -28,7 +28,7 @@ a {
 /* Header styles */
 
 #header-container {
-    box-shadow: 0px 0px 4px var(--topfisk-orange-dark);
+    box-shadow: 0px 0px 4px var(--madredder-orange-dark);
     position: fixed;
     background-color: white;
     width: 100%;
@@ -74,7 +74,7 @@ header {
 }
 
 .header-link:hover {
-    color: var(--topfisk-orange-dark);
+    color: var(--madredder-orange-dark);
 }
 
 .header-link.dropdown::after {
@@ -153,8 +153,8 @@ footer {
 
 .button {
     padding: .75rem 1.5rem;
-    background-image: var(--topfisk-orange-gradient);
-    box-shadow: 0px 0px 4px var(--topfisk-orange-dark);
+    background-image: var(--madredder-orange-gradient);
+    box-shadow: 0px 0px 4px var(--madredder-orange-dark);
     transition: filter 0.2s, box-shadow 0.2s;
     color: white;
     border-radius: 12px;
@@ -169,7 +169,7 @@ footer {
 
 .button:hover {
     filter: brightness(1.07);
-    box-shadow: 0px 0px 8px var(--topfisk-orange-dark);
+    box-shadow: 0px 0px 8px var(--madredder-orange-dark);
 }
 
 
@@ -208,7 +208,7 @@ footer {
 
 .login-button:hover {
     filter: brightness(1.07);
-    box-shadow: 0px 0px 8px var(--topfisk-orange-dark);
+    box-shadow: 0px 0px 8px var(--madredder-orange-dark);
 }
 
 
