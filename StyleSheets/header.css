@@ -235,11 +235,16 @@ footer {
 }
 
 
-#login-toggle:checked ~ .popup {
+#register-popup,
+#login-popup {
+    display: none;
+}
+
+#register-toggle:checked ~ #register-popup {
     display: flex;
 }
 
-#register-toggle:checked ~ .popup {
+#login-toggle:checked ~ #login-popup {
     display: flex;
 }
 
