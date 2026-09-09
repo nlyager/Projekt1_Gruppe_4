@@ -84,6 +84,10 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.header-button {
+    margin: .5rem;
+}
+
 .content-wide {
     width: 100%;
     text-align: center;
