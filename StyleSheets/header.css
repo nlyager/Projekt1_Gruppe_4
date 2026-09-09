@@ -105,7 +105,8 @@ header {
     box-shadow: none;
 }
 
-#header-container.transparent header div a {
+#header-container.transparent header div a,
+#header-container.transparent header div label{
     filter: grayscale(1) invert(1) brightness(4);
 }
 
