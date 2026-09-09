@@ -18,10 +18,23 @@
             <a id="header-logo" href="">
                 <img src="Images/Logo-1.svg">
             </a>
-            <a class="header-link" href="">Madspilds Tilbud</a>
-            <a class="header-link" href="">Info om Madspild</a>
+            <a class="header-link" href="PoseOversigt.html">Madspilds Tilbud</a>
+            <a class="header-link" href="OmMadspild/madspild.html">Info om Madspild</a>
         </div>
         <div id="header-right">
+            <input type="checkbox" id="register-toggle">
+            <label for="register-toggle" class="button">
+                Register
+            </label>
+
+            <div class="popup">
+                <div class="login-box">
+                    <label for="register-toggle" class="close">✕</label>
+
+                    <a href="Forbruger/2.FB-Opret.html" class="button">Forbruger</a>
+                    <a href="Virksomhed/2.VHD-Opret.html" class="button">Virksomhed</a>
+                </div>
+            </div>
             <input type="checkbox" id="login-toggle">
             <label for="login-toggle" class="button">
                 Login
@@ -31,12 +44,8 @@
                 <div class="login-box">
                     <label for="login-toggle" class="close">✕</label>
 
-                    <form action="">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-
-                        <button type="submit" class="button">Login</button>
-                    </form>
+                    <a href="Forbruger/3.FB-Login.html" class="button">Forbruger</a>
+                    <a href="Virksomhed/3.VHD-Login.html" class="button">Virksomhed</a>
                 </div>
             </div>
         </div>
@@ -57,11 +66,11 @@
     <h1>Kom i gang her</h1>
     <p>Vælg en kategori for at fortsætte.</p>
     <div id="main-card-container">
-        <a class="card shop" href="404.html">
+        <a class="card shop" href="PoseOversigt.html">
             <h2>Køb Madspilds poser</h2>
             <p>Her kan du købe den mad som forretninger skal ville ellers smide ud.</p>
         </a>
-        <a class="card learn" href="404.html">
+        <a class="card learn" href="OmMadspild/madspild.html">
             <h2>Lær mere om madspild</h2>
             <p>Prøver du at ungå madspild? Her er artikler hvor du kan lære mere</p>
         </a>

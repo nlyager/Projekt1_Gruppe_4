@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #F4F7F3;
+  color: #3A5311;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.bestilling {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 40px;
+}
+
+.bestilling h1 {
+  text-align: center;
+  color: #3A5311;
+  font-size: 36px;
+}
+
+.bestilling > p {
+  text-align: center;
+  color: #728C69;
+  font-size: 18px;
+}
+
+.poser {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pose {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 3px 10px #B2D3C2;
+}
+
+.pose img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.pose h2 {
+  color: #3A5311;
+  font-size: 22px;
+}
+
+.butik {
+  color: #728C69;
+  font-size: 14px;
+}
+
+.pose p {
+  line-height: 1.5;
+}
+
+.pris {
+  color: #3CB043;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pose button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3CB043;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pose button:hover {
+  background-color: #028A0F;
+}
