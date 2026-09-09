@@ -10,7 +10,7 @@ transparency = false;
 window.addEventListener("scroll", checkTransparent);
 
 
-function checkTransparent(event) {
+function checkTransparent() {
   if (window.scrollY < 30 && transparency == true) {
     headerContainer.classList.add("transparent")
     headerContainer.style.transition = "background-color 0.15s"
