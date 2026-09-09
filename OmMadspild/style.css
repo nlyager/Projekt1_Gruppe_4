@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  color: #1f2933;
+  background-color: #f4f7f3;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.madspildbillede{
+  position: absolute;
+    right: 300px;
+    top: 350px;
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+  }
+
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 20px;
+  color: #3CB043;
+}
+
+.underoverskrift{
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0b6b53;
+  margin-top: 50px;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 750px;
+}
+
+ul {
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 18px 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+a {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #0b6b53;
+  color: white;
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-weight: bold;
+}
