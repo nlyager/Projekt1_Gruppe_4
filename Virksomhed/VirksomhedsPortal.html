@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Virksomhedsportal</title>
+
+  <link rel="stylesheet" href="VirksomhedsPortal.css">
+</head>
+
+<body>
+
+<a href="../index.html">
+  <img class="logo" src="Logo.png" alt="MadRedder logo">
+</a>
+
+<h1>Velkommen til virksomhedsportalen</h1>
+
+<h2>Sæt en madpose til salg</h2>
+
+<form class="form">
+
+  <label for="navn">Navn på madpose:</label>
+  <input
+          type="text"
+          id="navn"
+          placeholder="F.eks. Bagerpose"
+          required
+  >
+
+  <label for="beskrivelse">Beskrivelse:</label>
+  <textarea
+          id="beskrivelse"
+          placeholder="Beskriv hvad posen kan indeholde..."
+          required
+  ></textarea>
+
+  <label for="pris">Pris:</label>
+  <input
+          type="number"
+          id="pris"
+          placeholder="F.eks. 49"
+          required
+  >
+
+  <label for="antal">Antal poser:</label>
+  <input
+          type="number"
+          id="antal"
+          placeholder="F.eks. 10"
+          required
+  >
+
+  <button type="submit">Sæt pose til salg</button>
+
+</form>
+
+
+<p>
+  Når du sætter en pose til salg, hjælper du med at reducere madspild.
+</p>
+
+</body>
+
+</html>

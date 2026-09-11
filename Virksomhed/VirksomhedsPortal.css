@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #EEF4E9;
+    color: #3A5311;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3A5311;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #3A5311;
+    font-size: 24px;
+}
+
+.form {
+    width: 500px;
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #B2D3C2;
+}
+
+.form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #3A5311;
+    font-weight: bold;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #B2D3C2;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3CB043;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #028A0F;
+}
+
+p {
+    text-align: center;
+    color: #728C69;
+}
+
+a:hover {
+    color: #028A0F;
+}
