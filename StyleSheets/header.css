@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-p, a {
+#header-container p, a {
     font-size: 1.1rem;
 }
 

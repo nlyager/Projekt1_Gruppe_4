@@ -12,6 +12,11 @@
     text-shadow: 0px 0px 4px #333;
 }
 
+body {
+    font-family: "Cabin", "Segoe UI", "Calibri", sans-serif;
+    margin: 0;
+}
+
 .main p {
     padding-bottom: 1rem;
 }

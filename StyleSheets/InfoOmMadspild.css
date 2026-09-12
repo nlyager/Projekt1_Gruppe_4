@@ -1,4 +1,4 @@
-body {
+.madspild-content {
   margin: 0;
   margin-left: 5px;
   margin-bottom: 5px;
@@ -15,23 +15,24 @@ body {
 }
 
 .logo-link{
-    background: none;
-        padding: 0;
-        margin: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
 
 }
 
 .madspildbillede{
   position: absolute;
-    right: 300px;
-    top: 350px;
-    width: 450px;
-    height: 450px;
-    border-radius: 20px;
-  }
+  right: 300px;
+  top: 350px;
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+}
 
 
-h1 {
+.madspild-title {
+  margin-top: 80px;
   text-align: center;
   font-size: 64px;
   margin-bottom: 20px;
@@ -46,25 +47,25 @@ h1 {
   margin: 0 auto;
 }
 
-h2 {
+.madspild-heading {
   font-size: 30px;
   color: #0b6b53;
   margin-top: 50px;
 }
 
 
-p {
+.madspild-text {
   font-size: 18px;
   line-height: 1.7;
   max-width: 750px;
 }
 
-ul {
+.madspild-list {
   padding: 0;
   margin-top: 25px;
 }
 
-li {
+.madspild-list-item {
   background-color: white;
   margin-bottom: 15px;
   padding: 18px 22px;
@@ -72,7 +73,7 @@ li {
   font-size: 17px;
 }
 
-a {
+.madspild-link {
   display: inline-block;
   margin-top: 30px;
   background-color: #0b6b53;
