@@ -3,7 +3,6 @@
 
 // Definer header
 headerContainer = document.getElementById("header-container")
-header = document.getElementsByTagName("header")[0]
 transparency = false;
 
 // Tjekker scroll pos

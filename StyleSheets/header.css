@@ -12,7 +12,6 @@
 }
 
 body {
-    font-family: "Cabin", "Segoe UI", "Calibri", sans-serif;
     margin: 0;
 }
 
@@ -35,6 +34,7 @@ a {
     top: 0;
     z-index: 69696969;
     transition: background-color 0.15s;
+    font-family: "Cabin", "Segoe UI", "Calibri", sans-serif;
 }
 
 header {
@@ -75,13 +75,6 @@ header {
 
 .header-link:hover {
     color: var(--madredder-orange-dark);
-}
-
-.header-link.dropdown::after {
-    content: "▼";
-    font-size: 0.8rem;
-    padding-left: .1rem;
-    transform: translate(-50%, -50%);
 }
 
 .header-button {
@@ -177,26 +170,11 @@ footer {
     box-shadow: 0px 0px 8px var(--madredder-orange-dark);
 }
 
-
-.content-wide h1 {
-    font-size: 4rem;
-
-}
-
-
-.content-wide p {
-    font-size: 1.25rem;
-}
-
 /* Size Differential Friendly */
 
 @media screen and (max-width: 70rem) {
     .header-link {
         display: none;
-    }
-    .search:hover input, .search input:focus {
-        width: 10rem;
-        padding: 0 1rem;
     }
     footer {
         flex-direction: column;
@@ -213,18 +191,6 @@ footer {
 #register-toggle {
     display: none;
 }
-
-.login-button:hover {
-    filter: brightness(1.07);
-    box-shadow: 0px 0px 8px var(--madredder-orange-dark);
-}
-
-.register-button:hover {
-    filter: brightness(1.07);
-    box-shadow: 0px 0px 8px var(--madredder-orange-dark);
-}
-
-
 
 .popup {
     display: none;

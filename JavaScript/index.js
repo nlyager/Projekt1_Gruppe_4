@@ -1,7 +1,7 @@
 // Definer index scroll knap
-var toCardButton = document.getElementsByClassName("scroll-to-card")[0]
-var mainCover = document.getElementsByClassName("main")[0]
-var mainTextContainer = document.getElementById("main-text-container")
+toCardButton = document.getElementsByClassName("scroll-to-card")[0]
+mainCover = document.getElementsByClassName("main")[0]
+mainTextContainer = document.getElementById("main-text-container")
 
 goToCards = function() {
     window.scrollTo({
@@ -15,6 +15,8 @@ toCardButton.addEventListener("click", goToCards)
 enableTransparent()
 checkTransparent()
 
+
+// Animation når index bliver loaded
 if (!document.referrer || new URL(document.referrer).host !== location.host) {
     doAnimation();
 }
