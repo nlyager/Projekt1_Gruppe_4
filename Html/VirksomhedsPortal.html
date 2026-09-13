@@ -4,18 +4,28 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Virksomhedsportal</title>
-
+  <title> Madspild </title>
+  <link rel="stylesheet" href="../StyleSheets/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin">
   <link rel="stylesheet" href="../StyleSheets/VirksomhedsPortal.css">
 </head>
 
 <body>
-
-<a href="../index.html">
-  <img class="logo" src="../Virksomhed/Logo.png" alt="MadRedder logo">
-</a>
+<div id="header-container">
+  <header>
+    <div id="header-left">
+      <a id="header-logo" href="../index.html">
+        <img src="../Images/madredder-logo.svg">
+      </a>
+      <a class="header-link" href="../Html/Shop/PoseOversigt.html">Madspilds Tilbud</a>
+      <a class="header-link" href="../Html/InfoOmMadspild.html">Info om Madspild</a>
+    </div>
+    <div id="header-right">
+    </div>
+  </header>
+</div>
 
 <h1>Velkommen til virksomhedsportalen</h1>
 
@@ -51,6 +61,14 @@
           type="number"
           id="antal"
           placeholder="F.eks. 10"
+          required
+  >
+
+  <label for="adresse">Adressen for afhentning:</label>
+  <input
+          type="text"
+          id="adresse"
+          placeholder="F.eks. Karmstensvej 2A, 3650 Ølstykke"
           required
   >
 

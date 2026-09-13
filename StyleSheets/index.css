@@ -1,5 +1,5 @@
 .main {
-    background: #006d34 url("/images/madredder-index-bg.svg");
+    background: #006d34 url("/Images/IndexBG/madredder-index-bg.svg");
     background-size: cover;
     background-position: 50%;
     color: white;
@@ -58,11 +58,11 @@ body {
 }
 
 .card.shop {
-    background-image: url("/Images/madredder-shop-bg.svg");
+    background-image: url("/Images/IndexBG/madredder-shop-bg.svg");
 }
 
 .card.learn {
-    background-image: url("/Images/Madredder-learn-bg.svg");
+    background-image: url("/Images/IndexBG/Madredder-learn-bg.svg");
 }
 
 
