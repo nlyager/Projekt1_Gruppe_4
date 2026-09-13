@@ -103,7 +103,7 @@ header {
 }
 
 #header-container.transparent header div a,
-#header-container.transparent header div label{
+#header-container.transparent header div .button{
     filter: grayscale(1) invert(1) brightness(4);
 }
 
@@ -162,6 +162,7 @@ footer {
     display: inline-block;
     text-decoration: none;
     border: none;
+    margin: 5px;
 }
 
 
